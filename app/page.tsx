@@ -5,6 +5,7 @@ import { OurServices } from "./components/OurServices";
 import OurWorks from "./components/OurWorks";
 import { Footer } from './components/Footer';
 import WhoWeAre from './components/WhoWeAre';
+import ContactUs from './components/ContanctUs';
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <WhoWeAre />
       <OurServices />
       <OurWorks /> 
-
+      <ContactUs />
 
 
       <Footer />

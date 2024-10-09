@@ -9,11 +9,12 @@ import ow2 from "../public/assets/images/ow2.jpeg";
 import ow3 from "../public/assets/images/ow3.jpeg";
 import ow4 from "../public/assets/images/ow4.jpeg";
 import ow5 from "../public/assets/images/ow5.jpeg";
+import kineta1 from '../public/assets/images/kineta1.jpg'
 import leftarrow from "../public/assets/images/left-arrow.png";
 import rightarrow from "../public/assets/images/right-arrow.png";
 
 const Carousel = () => {
-  const images = [ow1, ow2, ow3, ow4, ow5];
+  const images = [kineta1, ow1, ow2, ow3, ow4, ow5];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false); // Lock for transition
