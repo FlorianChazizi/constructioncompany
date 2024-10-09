@@ -72,7 +72,7 @@ export const Footer = () => {
                 <FaTwitter size={24} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/pfdconstruction/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-500 social-media-icon"
