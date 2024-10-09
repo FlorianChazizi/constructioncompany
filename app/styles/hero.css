@@ -1,0 +1,87 @@
+.hero {
+    background-image: url("../public/assets/images/kitchen.avif"); /* Ensure correct path to the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Make sure the hero section takes full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Prevents the zoomed-in background from overflowing */
+    animation: zoomInOut 15s infinite ease-in-out; /* Apply animation */
+}
+
+@keyframes zoomInOut {
+    0% {
+      background-size: 100% 100%;
+      background-position: center;
+    }
+    50% {
+      background-size: 110% 110%;
+      background-position: center;
+    }
+    100% {
+      background-size: 100% 100%;
+      background-position: center;
+    }
+  }
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Overlay for darkening t`he background */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+
+@media (max-width: 768px) { /* For tablets and smaller screens */
+    .hero {
+      height: 80vh; /* Reduces height for smaller devices */
+    }
+  }
+  
+  @media (max-width: 480px) { /* For mobile screens */
+    .hero {
+      height: 80vh; /* Further reduce height on very small screens */
+    }
+  }
+
+
+  .shine-text {
+    color: #fff; /* Text color */
+    font-weight: bold;
+    overflow: hidden; /* Ensures the shine stays inside the text boundaries */
+  }
+  
+  .shine-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+    transform: skewX(-30deg);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .shine-text:hover::before {
+    left: 100%;
+  }

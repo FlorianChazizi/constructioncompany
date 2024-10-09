@@ -1,0 +1,10 @@
+.social-media-icon {
+    padding: 0.5rem;
+    border-radius: 21px;
+    transition: background-color 0.5s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .social-media-icon:hover {
+    background-color: white;
+    transform: scale(1.2);
+  } 
