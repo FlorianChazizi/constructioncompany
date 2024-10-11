@@ -94,7 +94,7 @@ const Carousel = () => {
                 alt={`Work ${index + 1}`}
                 width={800}
                 height={400}
-                className="w-full object-contain h-96"
+                className="w-full object-cover h-96"
               />
             </div>
           ))}
