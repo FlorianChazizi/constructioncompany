@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import '../styles/navbar.css';
+import Image from "next/image";
+import logo from "../public/assets/images/logo.jpg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,14 +17,23 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <h1><a href="/" className="text-2xl font-bold text-white">PriftCon</a></h1>
+            <h1>
+              <Image
+                src={logo}
+                className="w-14 h-14 rounded-full object-cover"
+                height={45}
+                width={45}
+                alt="PFD CONSTRUCTION"
+              />
+
+            </h1>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
             <a href="#our-work" className="navlinks">Οι Δουλιές μας</a>
             <a href="#services" className="navlinks">Υπηρεσίες</a>
             <a href="#about" className="navlinks">Ποιοί Ήμαστε</a>
             <a href="#contact" className="navlinks">Επικοινωνία</a>
-            
+
           </div>
           {/* Hamburger Menu */}
           <div className="md:hidden flex items-center">

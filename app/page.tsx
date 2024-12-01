@@ -12,9 +12,8 @@ export default function Home() {
     <div className="flex flex-col min-h-[100dvh]">
     <Head>
       {/* Canonical URL */}
-      <link rel="canonical" href="https://www.example.com/my-page" />
+      <link rel="canonical" href="/favicon.ico" type="image/x-icon"/>
       </Head>
-
       <Hero />
       <WhoWeAre />
       <OurServices />
