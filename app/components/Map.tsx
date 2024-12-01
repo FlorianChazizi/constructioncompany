@@ -9,7 +9,7 @@ const Map = () => {
                     Our Current Project
                 </span>
                 <p className="text-xl text-gray-600 mb-6">
-                    We're excited to showcase our latest project — a cutting-edge building
+                    We are excited to showcase our latest project — a cutting-edge building
                     located in the heart of Larisa at <strong>Kinetas 22</strong>. This project is a
                     testament to our commitment to innovation, sustainability, and
                     architectural excellence.
