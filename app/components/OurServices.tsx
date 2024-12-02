@@ -15,22 +15,22 @@ export const OurServices = () => {
 
   return (
     <div>
-        
-               {/* Categories Section */}
-               <section className="py-12 bg-gray-100 h-auto md:h-[80vh]" id="services">
-               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold text-center mb-12 text-gray-800">
-            Our Services
+
+      {/* Categories Section */}
+      <section className="py-12 bg-gray-100 h-auto md:h-[80vh]" id="services">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-3xl font-mono font-bold text-center mb-12 text-gray-800">
+            Υπηρεσίες
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8" >
             {/* Card 1 - Residential Construction */}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center" data-aos="fade-down">
               <div className="mb-4">
-              <Image
-                    className="rounded-full w-24 h-24 mx-auto service-icon"
-                    src = {wrench}
-                    alt = "Hammer"
-                 />
+                <Image
+                  className="rounded-full w-24 h-24 mx-auto service-icon"
+                  src={wrench}
+                  alt="Hammer"
+                />
               </div>
               <h4 className="text-xl font-bold mb-2">Residential Construction</h4>
               <p className="text-gray-600">
@@ -43,10 +43,10 @@ export const OurServices = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 text-center" data-aos="fade-down">
               <div className="mb-4">
                 <Image
-                    className="rounded-full w-24 h-24 mx-auto service-icon"
-                    src = {wrench}
-                    alt = "Hammer"
-                 />
+                  className="rounded-full w-24 h-24 mx-auto service-icon"
+                  src={wrench}
+                  alt="Hammer"
+                />
               </div>
               <h4 className="text-xl font-bold mb-2">Commercial Projects</h4>
               <p className="text-gray-600">
@@ -57,11 +57,11 @@ export const OurServices = () => {
             {/* Card 3 - Restoration & Remodeling */}
             <div className="bg-white rounded-lg shadow-lg p-6 text-center" data-aos="fade-down">
               <div className="mb-4">
-              <Image
-                    className="rounded-full w-24 h-24 mx-auto service-icon"
-                    src = {wrench}
-                    alt = "Hammer"
-                 />
+                <Image
+                  className="rounded-full w-24 h-24 mx-auto service-icon"
+                  src={wrench}
+                  alt="Hammer"
+                />
               </div>
               <h4 className="text-xl font-bold mb-2">Restoration & Remodeling</h4>
               <p className="text-gray-600">

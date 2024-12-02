@@ -16,15 +16,21 @@ const WhoWeAre = () => {
     return (
         <section className="py-12 h-[75vh] bg-gray-100 flex items-center justify-center" id="about">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-8" data-aos="fade-down">Who We Are</h2>
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg text-gray-700 text-center mb-6" data-aos="fade-down">
-              We are a team of passionate builders dedicated to crafting high-quality constructions that stand the test of time. From modern innovations to timeless restorations, we bring expertise and dedication to every project.
+          <h2 className="text-4xl font-mono font-bold text-left text-gray-800 mb-8" data-aos="fade-down">Ποιοί ήμαστε;</h2>
+
+            <p className="text-lg text-gray-700 text-left mb-6" data-aos="fade-down">
+            Είμαστε η οικογένεια Πρίφτη, μια οικογένεια με πολυετή εμπειρία και βαθιά γνώση στον τομέα της κατασκευής. Ειδικευόμαστε στην ανέγερση οικοδομών, προσφέροντας υψηλής ποιότητας κατασκευαστικές υπηρεσίες και εστιάζοντας στην αποτελεσματική και προσεγμένη χρήση σκυροδέματος.            </p>
+            <p className="text-lg text-gray-700 text-left" data-aos="fade-up">
+            Στόχος μας είναι να παραδίδουμε πολυτελή διαμερίσματα που συνδυάζουν αισθητική, λειτουργικότητα και ανθεκτικότητα, καλύπτοντας τις ανάγκες και τις προσδοκίες των πελατών μας.            </p>
+            <p className="text-lg text-gray-700 text-left" data-aos="fade-up">
+            Με πάθος για την τελειότητα και σεβασμό στις αξίες που μας κληροδότησαν οι προηγούμενες γενιές, συνεχίζουμε να δημιουργούμε χώρους που δεν είναι απλώς κατοικίες, αλλά πραγματικά σπίτια.
             </p>
-            <p className="text-lg text-gray-700 text-center" data-aos="fade-down">
-              Our mission is to build spaces that reflect your vision and enhance your everyday life.
+            <p className="text-lg text-gray-700 text-left" data-aos="fade-up">
+            Εμπιστευθείτε μας για να κάνουμε το όραμά σας πραγματικότητα.
             </p>
           </div>
+
         </div>
       </section>
       );

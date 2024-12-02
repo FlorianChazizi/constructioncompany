@@ -4,11 +4,11 @@ import Carousel from './Carousel'
 const OurWorks = () => {
   return (
     <div className='py-12 bg-gray-100   h-[100vh]' id="our-work">
-      <h3 className="text-3xl font-bold text-center mb-12 text-gray-800"> Our Works </h3>
+      <h3 className="text-3xl font-mono font-bold text-center mb-12 text-gray-800"> Portfolio </h3>
 
       <Carousel />
-      </div>
+    </div>
   )
 }
 
-export default OurWorks
+export default OurWorks 
