@@ -16,9 +16,9 @@ const ContactUs = () => {
 
     <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
-            <span className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">Get in touch</span>
+            <span className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">Καλέστε μας</span>
 
-            <p className="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+            <p className="mt-3 text-gray-500 dark:text-gray-400">Η ομάδα μας θα σας εξυπηρετήσει.</p>
         </div>
 
         <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-2">
@@ -41,8 +41,8 @@ const ContactUs = () => {
                     </svg>
                 </span>
                 
-                <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
-                <p className="mt-2 text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Τηλέφωνο</h2>
+                <p className="mt-2 text-gray-500 dark:text-gray-400">Δευτέρα/Παρασκευή από 8 εώς 5.</p>
                 <a className="mt-2 text-blue-500 dark:text-blue-400"href='tel:+306944634180'>+30 6955352997</a>
             </div>
         </div>
