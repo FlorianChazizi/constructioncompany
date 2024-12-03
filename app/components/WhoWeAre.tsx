@@ -21,7 +21,7 @@ const WhoWeAre = () => {
             className="text-4xl font-mono font-bold text-left text-gray-800 mb-8"
             data-aos="fade-down"
           >
-            Ποιοί είμαστε;
+           Λίγα λόγια για εμάς;
           </h2>
 
           <p
