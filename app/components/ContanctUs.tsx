@@ -10,10 +10,12 @@ const ContactUs = () => {
       }, []);
     
   return (
+    
 <section className="bg-white  h-screen flex items-center justify-center" id="contact">
+<link rel="canonical" href="http://localhost:3000/" />
+
     <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
-
             <span className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">Get in touch</span>
 
             <p className="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>

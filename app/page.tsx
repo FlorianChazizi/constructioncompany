@@ -1,5 +1,3 @@
-import Head from 'next/head';
-
 import Hero from "./components/Hero";
 import { OurServices } from "./components/OurServices";
 import OurWorks from "./components/OurWorks";
@@ -10,17 +8,12 @@ import Map from './components/Map';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-    <Head>
-      {/* Canonical URL */}
-      <link rel="canonical" href="/favicon.ico" type="image/x-icon"/>
-      </Head>
       <Hero />
       <WhoWeAre />
       <OurServices />
       <OurWorks /> 
       <ContactUs />
       <Map />
-
       <Footer />
 </div>
   );

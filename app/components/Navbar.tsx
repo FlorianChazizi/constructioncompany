@@ -24,6 +24,7 @@ export default function Navbar() {
                 height={45}
                 width={45}
                 alt="PFD CONSTRUCTION"
+                title="PFD CONSTRUCTION"
               />
 
             </h1>

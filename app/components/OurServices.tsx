@@ -17,7 +17,7 @@ export const OurServices = () => {
     <div>
 
       {/* Categories Section */}
-      <section className="py-12 bg-gray-100 h-auto md:h-[80vh]" id="services">
+      <section className="py-12 bg-white h-auto md:h-[80vh]" id="services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-mono font-bold text-center mb-12 text-gray-800">
             Υπηρεσίες
