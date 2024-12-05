@@ -15,13 +15,13 @@ const ContactUs = () => {
 <link rel="canonical" href="http://localhost:3000/" />
 
     <div className="container px-6 py-12 mx-auto">
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-down">
             <span className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">Καλέστε μας</span>
 
             <p className="mt-3 text-gray-500 dark:text-gray-400">Η ομάδα μας θα σας εξυπηρετήσει.</p>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-2" data-aos="fade-up">
             <div className="flex flex-col items-center justify-center text-center">
                 <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">

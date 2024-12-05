@@ -1,10 +1,19 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
+import 'aos/dist/aos.css'; 
+import AOS from 'aos';
 
 const Map = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 }); 
+      }, []);
+
+      
     return (
         <div className="flex flex-col lg:flex-row items-start h-screen bg-gray-100">
             {/* Text Section */}
-            <div className="lg:w-1/2 w-full p-8 flex flex-col justify-center bg-gray-100">
+            <div className="lg:w-1/2 w-full p-8 flex flex-col justify-center bg-gray-100" data-aos="fade-up">
                 <span className=" text-center text-5xl font-bold text-gray-800 mb-6">
                    Το Τρέχον Έργο Μας
                 </span>

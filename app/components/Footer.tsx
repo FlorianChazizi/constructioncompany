@@ -99,7 +99,7 @@ export const Footer = () => {
           &copy; {new Date().getFullYear()} PriftCon. All rights reserved.
         </p>
         <p className="text-sm mt-2">
-          Designed by PriftCon Team
+          Designed by Florian Chazizi
         </p>
       </div>
     </div>
