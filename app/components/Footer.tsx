@@ -12,10 +12,9 @@ export const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         {/* Column 1 */}
         <div>
-          <h3 className="text-xl font-bold mb-4">About Us</h3>
+          <h3 className="text-xl font-bold mb-4">Σχετικά με εμάς</h3>
           <p className="text-sm">
-            We are a leading construction company dedicated to building the future while restoring the past. Our
-            mission is to provide top-quality construction services for both residential and commercial projects.
+          Στόχος μας είναι να παραδίδουμε πολυτελή διαμερίσματα που συνδυάζουν αισθητική, λειτουργικότητα και ανθεκτικότητα, καλύπτοντας τις ανάγκες και τις προσδοκίες των πελατών μας.
           </p>
         </div>
         {/* Column 2 */}
@@ -24,33 +23,33 @@ export const Footer = () => {
           <ul className="text-sm space-y-2">
             <li>
               <a href="#services" className="hover:underline">
-                Services
+                Υπηρεσίες
               </a>
             </li>
             <li>
               <a href="#our-work" className="hover:underline">
-                Our Work
+                Τα Projects μας
               </a>
             </li>
             <li>
               <a href="#about" className="hover:underline">
-                About Us
+                Η εταιρία
               </a>
             </li>
             <li>
               <a href="#contact" className="hover:underline">
-                Contact
+                Επικοινωνία
               </a>
             </li>
           </ul>
         </div>
         {/* Column 3 */}
         <div>
-          <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+          <h3 className="text-xl font-bold mb-4">Επικοινωνία</h3>
           <ul className="text-sm space-y-2">
-            <li>Phone: +30 123 456 7890</li>
+            <li>Τηλέφωνο: +30 6955352997</li>
             <li>Email: info@priftcon.com</li>
-            <li>Address: 1234 Construction St, Athens, Greece</li>
+            <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li>
           </ul>
           <div className="mt-4 flex space-x-5">
           <a
@@ -96,7 +95,7 @@ export const Footer = () => {
       {/* Footer Bottom Section */}
       <div className="border-t border-gray-700 pt-6 text-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} PriftCon. All rights reserved.
+          &copy; {new Date().getFullYear()} PFD Construction. All rights reserved.
         </p>
         <p className="text-sm mt-2">
           Designed by Florian Chazizi
