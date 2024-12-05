@@ -1,16 +1,16 @@
 .hero {
-    background-image: url("../public/assets/images/kitchen.avif"); /* Ensure correct path to the image */
+    background-image: url("../public/assets/images/kitchen.avif"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh; /* Make sure the hero section takes full viewport height */
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden; /* Prevents the zoomed-in background from overflowing */
-    animation: zoomInOut 15s infinite ease-in-out; /* Apply animation */
+    overflow: hidden; 
+    animation: zoomInOut 15s infinite ease-in-out; 
 }
 
 @keyframes zoomInOut {

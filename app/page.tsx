@@ -11,9 +11,11 @@ export default function Home() {
       <Hero />
       <WhoWeAre />
       <OurServices />
-      <OurWorks /> 
-      <ContactUs />
       <Map />
+      <ContactUs />
+      <OurWorks /> 
+
+
       <Footer />
 </div>
   );

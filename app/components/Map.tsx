@@ -5,17 +5,17 @@ const Map = () => {
         <div className="flex flex-col lg:flex-row items-start h-screen bg-gray-100">
             {/* Text Section */}
             <div className="lg:w-1/2 w-full p-8 flex flex-col justify-center bg-gray-100">
-                <span className="text-5xl font-bold text-gray-800 mb-6">
-                    Our Current Project
+                <span className=" text-center text-5xl font-bold text-gray-800 mb-6">
+                   Το Τρέχον Έργο Μας
                 </span>
                 <p className="text-xl text-gray-600 mb-6">
-                    We are excited to showcase our latest project — a cutting-edge building
-                    located in the heart of Larisa at <strong>Kinetas 22</strong>. This project is a
-                    testament to our commitment to innovation, sustainability, and
-                    architectural excellence.
+                Με ιδιαίτερη χαρά σας παρουσιάζουμε το τελευταίο μας 
+                έργο – ένα υπερσύγχρονο κτίριο που βρίσκεται απέναντι απο την πλατεία Τούμπας,
+                 στην οδό Κινέτας 22. Το έργο αυτό αντικατοπτρίζει τη δέσμευσή μας για καινοτομία,
+                  βιωσιμότητα και αρχιτεκτονική αριστεία.
                 </p>
                 <p className="text-lg text-gray-500">
-                    Address: Kinetas 22, Larisa 413 35, Greece
+                    Διεύθυνση: Κινέτας 22, Λάρισα 413 35
                 </p>
             </div>
 
