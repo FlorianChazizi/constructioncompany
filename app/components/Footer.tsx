@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react';
-import {  FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 import '../styles/footer.css'
 
 export const Footer = () => {
@@ -52,7 +52,7 @@ export const Footer = () => {
             <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li>
           </ul>
           <div className="mt-4 flex space-x-5">
-          <a
+          {/* <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,8 +60,8 @@ export const Footer = () => {
                 aria-label="Facebook"
               >
                 <FaFacebookF size={24} />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,7 +69,7 @@ export const Footer = () => {
                 aria-label="Twitter"
               >
                 <FaTwitter size={24} />
-              </a>
+              </a> */}
               <a
                 href="https://www.instagram.com/pfdconstruction/"
                 target="_blank"
@@ -79,7 +79,7 @@ export const Footer = () => {
               >
                 <FaInstagram size={24} />
               </a>
-              <a
+              {/* <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <FaLinkedinIn size={24} />
-              </a>
+              </a> */}
           </div>
         </div>
       </div>
