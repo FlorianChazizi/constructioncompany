@@ -20,7 +20,7 @@ const Hero = () => {
             <h2 className="text-3xl md:text-6xl font-bold mb-4 hero-content shine-text" data-aos="fade-down">
               Building the Future, Restoring the Past
             </h2>
-            <h3 className="text-lg md:text-xl " data-aos="fade-up">
+            <h3 className="text-lg md:text-xl text-white" data-aos="fade-up">
               Quality construction you can trust.
             </h3>
           </div>
