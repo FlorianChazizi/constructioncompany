@@ -30,9 +30,11 @@ export const OurServices = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 text-center" data-aos="fade-up">
               <div className="mb-4">
                 <Image
-                  className="rounded  w-24 h-24 mx-auto service-icon "
+                  className="mx-auto service-icon "
                   src={Building}
                   alt="Construction"
+                  width={100}
+                  height={100}
                 />
               </div>
               <h4 className="text-xl font-bold mb-2">Ανεγέρσεις Πολυκατοικιών</h4>
@@ -46,9 +48,11 @@ export const OurServices = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 text-center" data-aos="fade-up">
               <div className="mb-4">
                 <Image
-                  className="w-24 h-24 mx-auto service-icon"
+                  className="mx-auto service-icon"
                   src={Helmet}
                   alt="Helmet"
+                  width={100}
+                  height={100}
                 />
               </div>
               <h4 className="text-xl font-bold mb-2">Ανακαινίσεις Επιχειρήσεων</h4>
@@ -62,9 +66,11 @@ export const OurServices = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 text-center" data-aos="fade-up">
               <div className="mb-4">
                 <Image
-                  className="w-24 h-24 mx-auto service-icon"
+                  className="mx-auto service-icon"
                   src={Concrete}
                   alt="Concrete"
+                  width={100}
+                  height={100}
                 />
               </div>
               <h4 className="text-xl font-bold mb-2">Εργασίες Μπετόν</h4>
