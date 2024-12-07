@@ -48,7 +48,7 @@ export const Footer = () => {
           <h3 className="text-xl font-bold mb-4">Επικοινωνία</h3>
           <ul className="text-sm space-y-2">
             <li>Τηλέφωνο: +30 6955352997</li>
-            <li>Email: info@priftcon.com</li>
+            <li>Email: </li>
             <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li>
           </ul>
           <div className="mt-4 flex space-x-5">
