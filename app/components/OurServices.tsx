@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Building from '../public/assets/images/building.gif'
-import Helmet from '../public/assets/images/Helmet.gif'
+import Helmet from '../public/assets/images/helmet.gif'
 import Concrete from '../public/assets/images/concrete-pump.gif'
 
 import { useEffect } from 'react';
