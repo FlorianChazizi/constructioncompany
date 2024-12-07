@@ -34,6 +34,7 @@
     }
   }
 .hero-content {
+  font-family: 'CustomFont';
     position: relative;
     z-index: 2;
     display: flex;
@@ -41,6 +42,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 /* Overlay for darkening t`he background */

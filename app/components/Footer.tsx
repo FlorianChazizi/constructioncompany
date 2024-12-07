@@ -19,7 +19,7 @@ export const Footer = () => {
         </div>
         {/* Column 2 */}
         <div>
-          <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+          <h3 className="text-xl font-bold mb-4">Σύνδεσμοι</h3>
           <ul className="text-sm space-y-2">
             <li>
               <a href="#services" className="hover:underline">
