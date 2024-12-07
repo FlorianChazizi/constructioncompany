@@ -31,7 +31,7 @@ const ContactUs = () => {
 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                <a className="mt-2 text-blue-500 dark:text-blue-400" href='mailto:hello@merakiui.com'>hello@merakiui.com</a>
+                <a className="mt-2 text-blue-500 dark:text-blue-400" href='mailto:francheskaprifti@yahoo.gr'>francheskaprifti@yahoo.gr</a>
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
