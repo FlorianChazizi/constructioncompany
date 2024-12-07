@@ -12,7 +12,7 @@ const ContactUs = () => {
   return (
     
 <section className="bg-white  h-screen flex items-center justify-center" id="contact">
-<link rel="canonical" href="www.pfdconstruction.gr" />
+<link rel="canonical" href="https://www.pfdconstruction.gr" />
 
     <div className="container px-6 py-12 mx-auto">
         <div className="text-center" data-aos="fade-down">
