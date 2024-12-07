@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("../public/assets/images/kitchen.avif"); 
+    background-image: url("../public/assets/images/luxk.jpeg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,12 @@
       background-position: center;
     }
   }
-
+  @media (max-width: 480px) { /* For mobile screens */
+    .hero {
+      height: 80vh; /* Further reduce height on very small screens */
+      background-image: url("../public/assets/images/mo-kk.jpg"); 
+    }
+  }
 .hero-content {
     position: relative;
     z-index: 2;
