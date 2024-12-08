@@ -48,8 +48,8 @@ export const Footer = () => {
           <h3 className="text-xl font-bold mb-4">Επικοινωνία</h3>
           <ul className="text-sm space-y-2">
             <li>Τηλέφωνο: +30 6955352997</li>
-            <li>Email: </li>
-            <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li>
+            <li>Email: francheskaprifti@yahoo.gr</li>
+            {/* <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li> */}
           </ul>
           <div className="mt-4 flex space-x-5">
           {/* <a
@@ -98,7 +98,7 @@ export const Footer = () => {
           &copy; {new Date().getFullYear()} PFD Construction. All rights reserved.
         </p>
         <p className="text-sm mt-2">
-          Designed by <a href="https://www.linkedin.com/in/florian-chazizi-191b00175/">Florian Chazizi</a>
+          Designed by <a href="https://www.linkedin.com/in/florian-chazizi-191b00175/" target="_blank" aria-label="Florian Chazizi">Florian Chazizi</a>
         </p>
       </div>
     </div>
