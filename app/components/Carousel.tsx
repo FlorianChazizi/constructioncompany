@@ -130,6 +130,7 @@ const Carousel = () => {
               currentIndex === index ? "bg-gray-900" : "bg-gray-500"
             }`}
             onClick={() => setSlide(index)}
+             aria-label="Μετάβαση στη επόμενη διαφάνεια"
           ></button>
         ))}
       </div>

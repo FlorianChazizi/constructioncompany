@@ -26,7 +26,6 @@ export default function Navbar() {
                 alt="PFD CONSTRUCTION"
                 title="PFD CONSTRUCTION"
               />
-
             </h1>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
@@ -38,7 +37,7 @@ export default function Navbar() {
           </div>
           {/* Hamburger Menu */}
           <div className="md:hidden flex items-center">
-            <button
+            <button aria-label="Άνοιγμα μενού"
               onClick={() => setIsOpen(!isOpen)}
               className="text-white focus:outline-none"
             >
