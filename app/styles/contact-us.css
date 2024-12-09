@@ -1,0 +1,7 @@
+.cu-icon {
+    transition: .25s ease-in-out;
+}
+
+.cu-icon:hover{
+    transform: scale(1.2);
+}
