@@ -3,18 +3,18 @@
 import { useState, useRef } from "react";
 import Image from "next/image";
 
+import ourw1 from "../public/assets/images/ourw1.jpg";
+import ourw2 from "../public/assets/images/ourw2.jpg";
+import ourw3 from "../public/assets/images/ourw3.jpg";
+import ourw4 from "../public/assets/images/ourw4.jpg";
+import ourw5 from "../public/assets/images/ourw5.jpg";
+import ourw6 from "../public/assets/images/ourw6.jpg";
 
-import ow1 from "../public/assets/images/ow1.jpg";
-import ow2 from "../public/assets/images/ow2.jpeg";
-import ow3 from "../public/assets/images/ow3.jpeg";
-import ow4 from "../public/assets/images/ow4.jpeg";
-import ow5 from "../public/assets/images/ow5.jpeg";
-import kineta1 from '../public/assets/images/kineta1.jpg'
 import leftarrow from "../public/assets/images/left-arrow.png";
 import rightarrow from "../public/assets/images/right-arrow.png";
 
 const Carousel = () => {
-  const images = [kineta1, ow1, ow2, ow3, ow4, ow5];
+  const images = [ourw1, ourw2, ourw3, ourw4, ourw5, ourw6];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false); // Lock for transition
