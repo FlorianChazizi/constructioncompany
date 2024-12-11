@@ -103,7 +103,7 @@ const Carousel = () => {
         {/* Left Arrow */}
         <Image
           src={leftarrow}
-          className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full focus:outline-none left-arrow shadow-lg cursor-pointer"
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full focus:outline-none left-arrow shadow-lg cursor-pointer hidden md:block"
           height={45}
           width={45}
           alt="left arrow"
@@ -115,7 +115,7 @@ const Carousel = () => {
           src={rightarrow}
           height={45}
           width={45}
-          className="absolute top-1/2 right-4 transform -translate-y-1/2  text-gray-800   focus:outline-none rounded-full right-arrow shadow-lg cursor-pointer"
+          className="absolute top-1/2 right-4 transform -translate-y-1/2  text-gray-800   focus:outline-none rounded-full right-arrow shadow-lg cursor-pointer hidden md:block"
           alt="right arrow"
           onClick={nextSlide}
         />
