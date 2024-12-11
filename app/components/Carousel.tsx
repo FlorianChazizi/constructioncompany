@@ -107,6 +107,7 @@ const Carousel = () => {
           height={45}
           width={45}
           alt="left arrow"
+          title="left arrow"
           onClick={prevSlide}
         />
 
@@ -117,6 +118,7 @@ const Carousel = () => {
           width={45}
           className="absolute top-1/2 right-4 transform -translate-y-1/2  text-gray-800   focus:outline-none rounded-full right-arrow shadow-lg cursor-pointer hidden md:block"
           alt="right arrow"
+          title="right arrow"
           onClick={nextSlide}
         />
       </div>
