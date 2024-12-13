@@ -54,9 +54,9 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#our-work" className="block navlinks px-3 py-2 rounded-md text-base font-medium text-center" onClick={handleLinkClick}>Οι Δουλιές μας</a>
-            <a href="#services" className="block navlinks px-3 py-2 rounded-md text-base font-medium text-center" onClick={handleLinkClick}>Services</a>
+            <a href="#services" className="block navlinks px-3 py-2 rounded-md text-base font-medium text-center" onClick={handleLinkClick}>Υπηρεσίες</a>
             <a href="#about" className="block navlinks px-3 py-2 rounded-md text-base font-medium text-center" onClick={handleLinkClick}>Ποιοί Ήμαστε</a>
-            <a href="#contact" className="block navlinks px-3 py-2 rounded-md text-base font-medium text-center" onClick={handleLinkClick}>Contact</a>
+            <a href="#contact" className="block navlinks px-3 py-2 rounded-md text-base font-medium text-center" onClick={handleLinkClick}>Επικοινωνία</a>
           </div>
         </div>
       )}
