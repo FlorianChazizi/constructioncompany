@@ -47,8 +47,8 @@ export const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-4">Επικοινωνία</h3>
           <ul className="text-sm space-y-2">
-            <li>Τηλέφωνο: +30 6955352997</li>
-            <li>Email: francheskaprifti@yahoo.gr</li>
+            <li>Τηλέφωνο: <a className="mt-2 text-white"href='tel:+306944634180'>+30 6955352997</a></li>
+            <li>Email: <a className="mt-2 text-white" href='mailto:francheskaprifti@yahoo.gr'>francheskaprifti@yahoo.gr</a></li>
             {/* <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li> */}
           </ul>
           <div className="mt-4 flex space-x-5">
