@@ -98,7 +98,7 @@ export const Footer = () => {
           &copy; {new Date().getFullYear()} PFD Construction. All rights reserved.
         </p>
         <p className="text-sm mt-2">
-          Designed by <a href="https://www.linkedin.com/in/florian-chazizi-191b00175/" target="_blank" aria-label="Florian Chazizi">Florian Chazizi</a>
+          Designed by <a href="https://www.webc.gr" target="_blank" aria-label="Florian Chazizi">webc.gr</a>
         </p>
       </div>
     </div>
