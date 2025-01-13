@@ -1,5 +1,16 @@
 .navigation-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50; /* Ensures it stays above all other elements */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: transparent; /* Initial transparent background */
+  color: white; /* White text for visibility over the hero section */
+  }
+  .navigation-bar.scrolled {
     background-color: rgb(31,41,55);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    color: white; /* Text color remains white */
   }
 
 .navlinks {
