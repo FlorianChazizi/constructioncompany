@@ -19,6 +19,7 @@
 .navlinks {
     position: relative;
     display: inline-block;
+    font-weight: 700;
     padding: .5rem;
     color: #e4e4e4;
     text-decoration: none; /* Remove default underline */
