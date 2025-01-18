@@ -47,7 +47,7 @@ export const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-4">Επικοινωνία</h3>
           <ul className="text-sm space-y-2">
-            <li>Τηλέφωνο: <a className="mt-2 text-white"href='tel:+306944634180'>+30 6955352997</a></li>
+            <li>Τηλέφωνο: <a className="mt-2 text-white"href='tel:+306955352997'>+30 6955352997</a></li>
             <li>Email: <a className="mt-2 text-white" href='mailto:francheskaprifti@yahoo.gr'>francheskaprifti@yahoo.gr</a></li>
             {/* <li>Διεύθυνση: Θεοχάρη 26, Λάρισα 413 35 </li> */}
           </ul>
@@ -98,7 +98,7 @@ export const Footer = () => {
           &copy; {new Date().getFullYear()} PFD Construction. All rights reserved.
         </p>
         <p className="text-sm mt-2">
-          Designed by <a href="https://www.webc.gr" target="_blank" aria-label="Florian Chazizi">webc.gr</a>
+          Designed by <a href="https://www.webc.gr" target="_blank" aria-label="web.gr">webc.gr</a>
         </p>
       </div>
     </div>
