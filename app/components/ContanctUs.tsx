@@ -44,7 +44,7 @@ const ContactUs = () => {
                 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Τηλέφωνο</h2>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">Δευτέρα/Παρασκευή από 9 εώς 6.</p>
-                <a className="mt-2 text-blue-500 dark:text-blue-400"href='tel:+306944634180'>+30 6955352997</a>
+                <a className="mt-2 text-blue-500 dark:text-blue-400"href='tel:+306955352997'>+30 6955352997</a>
             </div>
         </div>
     </div>
