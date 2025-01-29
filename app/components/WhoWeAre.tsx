@@ -61,7 +61,7 @@ const WhoWeAre = () => {
           </div>
 
           {/* Moving Image/Video Section */}
-          <div className="w-full h-full rounded-lg overflow-hidden shadow-2xl" data-aos="fade-left">
+          <div className="w-full h-full rounded-lg overflow-hidden shadow-2xl" data-aos="fade-down">
               <Image
                 src={ourw1}
                 alt='PFD Construction'
