@@ -1,94 +1,157 @@
 .hero {
-    background-image: url("../public/assets/images/luxk.jpeg"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden; 
-    animation: zoomInOut 13s infinite ease-in-out; 
+  background-image: url("../public/assets/images/luxk.jpeg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100vh; 
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
+  animation: zoomInOut 13s infinite ease-in-out; 
+  padding-left: 8rem; /* Add padding to the left */
 }
 
 @keyframes zoomInOut {
-    0% {
-      background-size: 100% 100%;
-      background-position: center;
-    }
-    50% {
-      background-size: 110% 110%;
-      background-position: center;
-    }
-    100% {
-      background-size: 100% 100%;
-      background-position: center;
-    }
+  0% {
+    background-size: 100% 100%;
+    background-position: center;
   }
-  @media (max-width: 480px) { /* For mobile screens */
-    .hero {
-      height: 80vh; /* Further reduce height on very small screens */
-      background-image: url("../public/assets/images/mo-kk.jpg"); 
-    }
+  50% {
+    background-size: 110% 110%;
+    background-position: center;
   }
+  100% {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+}
+
+/* Blurry overlay */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+}
+
 .hero-content {
+  padding: 1rem;
   font-family: 'CustomFont';
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the left */
+  text-align: left; /* Align text to the left */
+  max-width: 800px; /* Limit text width */
+  border-radius: 2rem;
+  background: rgba(149, 149, 149, 0.15); /* Semi-transparent black */
+  backdrop-filter: blur(2px); /* Blurry effect */
 }
 
-/* Overlay for darkening t`he background */
+/* Overlay for darkening the background */
 .hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
 }
 
-
+/* Responsive adjustments */
 @media (max-width: 768px) { /* For tablets and smaller screens */
-    .hero {
-      height: 80vh; /* Reduces height for smaller devices */
-    }
+  .hero {
+    height: 80vh; /* Reduces height for smaller devices */
+    padding-inline: 1rem;
   }
-  
-  @media (max-width: 480px) { /* For mobile screens */
-    .hero {
-      height: 80vh; /* Further reduce height on very small screens */
-    }
+}
+
+@media (max-width: 480px) { /* For mobile screens */
+  .hero {
+    height: 80vh; /* Further reduce height on very small screens */
+    padding-inline: 1rem;
+    background-image: url("../public/assets/images/mo-kk.jpg"); 
   }
 
+  .hero-content {
+    align-items: center; /* Center text on mobile */
+    text-align: center; /* Center text on mobile */
+    margin: 0;
+  }
+}
 
-  .shine-text {
-    color: #fff; /* Text color */
-    font-weight: bold;
-    overflow: hidden; /* Ensures the shine stays inside the text boundaries */
-  }
-  
-  .shine-text::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
-    transform: skewX(-30deg);
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .shine-text:hover::before {
-    left: 100%;
-  }
+/* Shine text effect */
+.shine-text {
+  color: #fff; /* Text color */
+  font-weight: bold;
+  overflow: hidden; /* Ensures the shine stays inside the text boundaries */
+  position: relative;
+}
+
+/* .shine-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+  transform: skewX(-30deg);
+  transition: all 0.5s ease-in-out;
+} */
+
+/* .shine-text:hover::before {
+  left: 100%;
+} */
+
+.hero-button {
+  color: white; /* Black text */
+  padding: 16px 32px; /* Increased padding for a larger button */
+  border-left: 1px solid #f6c506;
+  border-bottom: 1px solid #f6c506;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  border-top-right-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for anchor tag */
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+  position: relative; /* Required for pseudo-element positioning */
+  overflow: hidden; /* Ensures the pseudo-element doesn't overflow */
+  background-color: transparent; /* Transparent background by default */
+  z-index: 1; /* Ensures text stays above the pseudo-element */
+}
+
+.hero-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; /* Starts from the left */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #FFC300, #FFD700); /* Yellow gradient */
+  transition: all 0.30s ease-in-out;
+  z-index: -1; /* Places the pseudo-element behind the text */
+}
+
+.hero-button:hover::before {
+  left: 0; /* Moves the pseudo-element to the right */
+}
+
+.hero-button:hover {
+  color: white; /* Ensures text remains visible */
+  text-shadow: 2px 2px 2px black;
+  transform: translateY(-12px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
